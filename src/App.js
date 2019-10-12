@@ -10,6 +10,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App__header">
+          <h1>Clara Dios</h1>
+          <h2>front-end developer</h2>
         </header>
         <main className="App__main">
           <section className="Main__section_works">
