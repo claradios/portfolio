@@ -31,14 +31,19 @@
 
 .work__picture-ct{
   border-radius:50%;
-  border: 2px solid #0034ad;
-  background: white; 
+  height:250px;
+  width:250px;
+  border: 2px solid #0034ad; 
+  background-size: 100%;   
+
   :hover{
     opacity: 0.1;
   }
 }
 .work__picture {
-  opacity:0.5;
+  // opacity:0.5;
+  width:100%;
+
   // :hover{
   //   opacity:1;
   // }

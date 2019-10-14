@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.scss';
 import projects from './components/projects';
-import { isAbsolute } from 'path';
 
 class App extends React.Component {
   constructor(props) {
@@ -9,6 +8,7 @@ class App extends React.Component {
   }
 
   render() {
+
     return (
       <div className="App">
         <header className="App__header">
@@ -29,13 +29,25 @@ class App extends React.Component {
           </section>
           <section className="Main__section_works">
             <ul className="works__list">
-              {projects.map(project =>
-                <li className="works__item">
-                  <div>
-                    <h4>{project.name}</h4>
-                    <div className="work__picture-ct"><a href={project.url}><img className="work__picture" alt="" src={project.image} /></a></div>
-                  </div>
-                </li>)}
+              {projects.map((project) => {
+                var pictureStyle = {
+                  backgroundImage: `url(${project.image})`,
+                  backgroundRepeat: 'no-repeat',
+                  // backgroundAttachment: 'fixed',
+                  backgroundPosition: 'center'
+                };
+                return (
+                  <li className="works__item">
+                    <div>
+                      <h4>{project.name}</h4>
+                      <a href={project.url} target='blank'>
+                        <div className="work__picture-ct" style={pictureStyle} ></div>
+                      </a>
+                    </div>
+                  </li>
+                );
+              }
+              )}
             </ul>
           </section>
           <section className="Main__section_other">
