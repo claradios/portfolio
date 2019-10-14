@@ -28,17 +28,19 @@
   justify-content:center;
   align-items:center;
 }
-
+.works__link{
+  :hover{
+    border: 2px solid red;
+    background-color:red;
+  }
+}
 .work__picture-ct{
   border-radius:50%;
   height:250px;
   width:250px;
   border: 2px solid #0034ad; 
-  background-size: 100%;   
-
-  :hover{
-    opacity: 0.1;
-  }
+  background-size: 100%; 
+ 
 }
 .work__picture {
   // opacity:0.5;

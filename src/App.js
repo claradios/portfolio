@@ -40,7 +40,7 @@ class App extends React.Component {
                   <li className="works__item">
                     <div>
                       <h4>{project.name}</h4>
-                      <a href={project.url} target='blank'>
+                      <a className="works__link" href={project.url} target='blank'>
                         <div className="work__picture-ct" style={pictureStyle} ></div>
                       </a>
                     </div>
