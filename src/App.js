@@ -2,9 +2,14 @@ import React from 'react';
 import './App.scss';
 import projects from './components/projects';
 
+
+
 class App extends React.Component {
   constructor(props) {
     super(props);
+  }
+  componentDidMount() {
+
   }
 
   render() {
@@ -14,9 +19,10 @@ class App extends React.Component {
         <header className="App__header">
           <h1>Clara Dios</h1>
           <h2>front-end developer</h2>
+          <a className="App_header_arrow" href="#about-me"><span className="arrow-icon">^</span></a>
         </header>
         <main className="App__main">
-          <section className="Main__section_about-me">
+          <section id="about-me" className="Main__section_about-me">
             <div className="about-me__container">
               <h3 className="about-me__title">sobre mi</h3>
               <p className="about-me__text">
