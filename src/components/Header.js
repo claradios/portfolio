@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Header.scss';
-import Contact from './Contact';
 
 const Header = props => {
     return (

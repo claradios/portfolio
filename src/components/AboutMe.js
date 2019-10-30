@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/AboutMe.scss';
-import Contact from './Contact';
 
 const AboutMe = props => {
     return (

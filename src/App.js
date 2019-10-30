@@ -9,7 +9,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state ={
-      isDescription: false
+      isDescription: false,
+      currentId:'hola'
     }
     this.showDescription=this.showDescription.bind(this);
     this.removeDescription=this.removeDescription.bind(this);
@@ -19,29 +20,32 @@ class App extends React.Component {
   }
 
   showDescription(event){
-    console.log('show');
+    const id = parseInt(event.currentTarget.id);
     this.setState({       
       isDescription: true,
-      show:'hola'
+      currentId:id
     })
-
   };
-  removeDescription(event){
-     console.log('remove');
+
+  removeDescription(event){  
      this.setState({
        isDescription:false,
-       show:'adios'
+       currentId:''
      })
    };
 
   render() {
     const {showDescription, removeDescription} = this;
-    const {isDescription} = this.state;
+    const {isDescription,currentId} = this.state;
     return (
       <div className="App">
         <Header />
         <Contact/>       
-        <Main isDescription={isDescription} showDescription={showDescription} removeDescription={removeDescription}/>
+        <Main 
+        isDescription={isDescription} 
+        showDescription={showDescription} 
+        removeDescription={removeDescription}
+        currentId={currentId}/>
       </div>
     );
   }
