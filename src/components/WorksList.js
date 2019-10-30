@@ -12,7 +12,7 @@ const WorksList = props => {
                 {projects.map((project, index) => {
                     const { name, url, image, emoji, description } = project;
                     return (
-                        <li key= {index} className="works__item">
+                        <li key={index} className="works__item">
                             <Project
                                 name={name}
                                 url={url}
