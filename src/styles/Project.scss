@@ -1,0 +1,36 @@
+.works__link{
+     
+    :hover{
+      border: 2px solid pink;
+      background-color:pink;      
+    }
+  }
+  .work__picture-ct{
+    background-color:white;
+    border-radius:50%;
+    height:250px;
+    width:250px;
+    border: 2px solid #0034ad; 
+    background-size: 100%;
+    font-size: 50px; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+  }
+  .work__picture {
+    // opacity:0.5;
+    width:100%;
+  
+    // :hover{
+    //   opacity:1;
+    // }
+  }
+  
+  
+  
+  
+  
+  
+  
+  

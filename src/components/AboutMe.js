@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/AboutMe.scss';
+import Contact from './Contact';
 
 const AboutMe = props => {
     return (
@@ -11,7 +13,7 @@ const AboutMe = props => {
                 <p className="about-me__text">
                     ¿Quieres ver alguno de mis últimos proyectos de código?
                 </p>
-            </div>
+            </div>     
         </section>
     );
 }

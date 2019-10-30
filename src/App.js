@@ -18,8 +18,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
+        <Contact/>       
         <Main />
-        <Contact />
       </div>
     );
   }

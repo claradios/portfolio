@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from './AboutMe';
 import WorksList from './WorksList';
+import '../styles/Main.scss';
 
 const Main = props => {
     return (

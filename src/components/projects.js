@@ -8,22 +8,25 @@ import icono06 from '../images/icono06.svg';
 
 const projects = [
     {
-        name:"web de empresa",
+        name:"DivQueens",
         description:"esto es una web maquetada con lilili en la que se hace lalala",
         url:"http://github.com/Adalab/g-m1-divqueens",
-        image:icono01,      
+        image:icono01,
+        emoji:"🦚"      
     },
     {
-        name:"tarjetas de contacto digitales",
+        name:"AwesomeCards",
         description:"esto es una web maquetada con lilili en la que se hace lalala",
         url:"http://github.com/Adalab/g-m2-letmecode",
-        image:icono02,      
+        image:icono02,  
+        emoji:"🐙"     
     },
     {
-        name:"traspaso a react de herencia",
+        name:"ReactInherit",
         description:"esto es una web maquetada con lilili en la que se hace lalala",
         url:"http://beta.adalab.es/g-m3-splice-girls/",
-        image:icono03,      
+        image:icono03,   
+        emoji:"🧠"    
     },
     // {
     //     name:"juego adivinar número",
@@ -32,22 +35,25 @@ const projects = [
     //     image:"http://via.placeholder.com/250",      
     // },
     {
-        name:"proyecto kairos",
+        name:"DevAssigner",
         description:"esto es una web maquetada con lilili en la que se hace lalala",
         url:"http://github.com/Adalab/team-kairos",
-        image:icono04,      
+        image:icono04,   
+        emoji:"🧶"    
     },
     {
-        name:"buscador de series",
+        name:"TVShows",
         description:"esto es una web maquetada con lilili en la que se hace lalala",
         url:"http://github.com/Adalab/m2-evaluacion-final-claradios",
-        image:icono05,      
+        image:icono05,   
+        emoji:"🤯"    
     },
     {
-        name:"buscador de ricky y morty",
+        name:"Ricky&Morty",
         description:"esto es una web maquetada con lilili en la que se hace lalala",
         url:"http://github.com/Adalab/m3-evaluacion-final-claradios",
-        image:icono06,      
+        image:icono06,  
+        emoji:"👩‍🔬"     
     }
 ]
 
