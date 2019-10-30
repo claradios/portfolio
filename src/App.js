@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import projects from './components/projects';
-
+import Contact from './components/Contact';
 
 
 class App extends React.Component {
@@ -62,13 +62,7 @@ class App extends React.Component {
             <li className="other__project"></li>
           </section>
         </main>
-        <footer className="App__footer">
-          <ul className="contact__icons-list">
-            <li className="contact__item"><a href="mailto:clara.dios.diez@gmail.com" target="blank"><i className="far fa-envelope card-icon"></i></a></li>
-            <li className="contact__item"><a href="https://www.linkedin.com/in/claradios/" target="blank"><i className="fab fa-linkedin-in linkedin-icon"></i></a></li>
-            <li className="contact__item"><a href="https://github.com/claradios" target="blank"><i className="fab fa-github-alt github-icon"></i></a></li>
-          </ul>
-        </footer>
+      <Contact/>
       </div>
     );
   }
