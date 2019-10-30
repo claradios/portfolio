@@ -4,10 +4,14 @@ import WorksList from './WorksList';
 import '../styles/Main.scss';
 
 const Main = props => {
+    const {showDescription,removeDescription,isDescription} = props;
     return (
         <main className="App__main">
             <AboutMe/>
-            <WorksList/>      
+            <WorksList 
+            isDescription={isDescription}
+            showDescription={showDescription}
+            removeDescription={removeDescription}/>      
         </main>
     );
 }
