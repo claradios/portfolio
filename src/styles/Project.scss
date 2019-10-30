@@ -1,8 +1,11 @@
-.works__link{
-     
+.works__link{ 
+  border: 2px solid pink;
+  background-color:pink;       
     :hover{
-      border: 2px solid pink;
-      background-color:pink;      
+      background-image:url('https://www.royalcanin.es/wp-content/uploads/2016/03/11.jpg');
+      :only-child{
+        display:none;
+      }      
     }
   }
   .work__picture-ct{
@@ -16,16 +19,10 @@
     display:flex;
     justify-content:center;
     align-items:center;
-   
+
   }
-  .work__picture {
-    // opacity:0.5;
-    width:100%;
-  
-    // :hover{
-    //   opacity:1;
-    // }
-  }
+
+
   
   
   
