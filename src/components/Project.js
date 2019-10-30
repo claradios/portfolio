@@ -6,7 +6,7 @@ const Project = props => {
 
     return (
         <div>
-            <h4 style={{ color: 'blue' }}>{name}</h4>
+            <h4 style={{ color: 'blue' }}>{isDescription&&name}</h4>
             <a className="works__link" href={url} target='blank'>
                 <div className={isDescription?'work__description':'work__picture-ct'} onMouseOver={showDescription} onMouseOut={removeDescription}>
                    {isDescription?description:emoji}                  
