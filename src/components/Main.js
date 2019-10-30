@@ -6,12 +6,7 @@ const Main = props => {
     return (
         <main className="App__main">
             <AboutMe/>
-            <WorksList/>            
-            <section className="Main__section_other">
-                <li className="other__project"></li>
-                <li className="other__project"></li>
-                <li className="other__project"></li>
-            </section>
+            <WorksList/>      
         </main>
     );
 }

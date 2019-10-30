@@ -1,31 +1,22 @@
 import React from 'react';
 import projects from './projects';
+import Project from './Project';
 
 const WorksList = props => {
-    return(
+    return (
         <section className="Main__section_works">
-                <ul className="works__list">
-                    {projects.map((project) => {
-                        var pictureStyle = {
-                            backgroundImage: `url(${project.image})`,
-                            backgroundRepeat: 'no-repeat',
-                            // backgroundAttachment: 'fixed',
-                            backgroundPosition: 'center'
-                        };
-                        return (
-                            <li className="works__item">
-                                <div>
-                                    <h4>{project.name}</h4>
-                                    <a className="works__link" href={project.url} target='blank'>
-                                        <div className="work__picture-ct" style={pictureStyle} ></div>
-                                    </a>
-                                </div>
-                            </li>
-                        );
-                    }
-                    )}
-                </ul>
-            </section>
+            <ul className="works__list">
+                {projects.map((project,index) => {
+                    const { name, url, image } = project;
+                    return (
+                        <li key={index} className="works__item">
+                            <Project name={name} url={url} image={image} />
+                        </li>
+                    );
+                }
+                )}
+            </ul>
+        </section>
     );
 }
 
