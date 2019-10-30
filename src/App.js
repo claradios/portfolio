@@ -10,7 +10,7 @@ class App extends React.Component {
     super(props);
     this.state ={
       isDescription: false,
-      currentId:'hola'
+      currentId:''
     }
     this.showDescription=this.showDescription.bind(this);
     this.removeDescription=this.removeDescription.bind(this);
@@ -27,7 +27,7 @@ class App extends React.Component {
     })
   };
 
-  removeDescription(event){  
+  removeDescription(){  
      this.setState({
        isDescription:false,
        currentId:''

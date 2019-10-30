@@ -1,17 +1,7 @@
 .works__link{ 
-  // border: 2px solid pink;
-  // background-color:pink; 
-       
-    :hover{
-      // background-image:url('https://www.royalcanin.es/wp-content/uploads/2016/03/11.jpg');
-      :only-child{
-        // display:none;
-      }      
-    }
+
   }
   .work__picture-ct{
-    position:relative; 
-    // background-color:red;
     border-radius:50%;
     height:250px;
     width:250px;
@@ -24,25 +14,18 @@
   
   }
 
-
-.works_background-description{
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-  overflow: hidden;
-
-  background-color:yellow;
+.work__description{
   border-radius:50%;
   height:250px;
   width:250px;
-  border: 2px solid #0034ad; 
+  border: 2px solid pink; 
   background-size: 100%;
-  font-size: 50px; 
-
+  font-size: 20px; 
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
+
   
   
 
