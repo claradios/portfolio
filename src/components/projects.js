@@ -10,7 +10,7 @@ import icono06 from '../images/icono06.svg';
 const projects = [
     {
         name:"DivQueens",
-        description:"esto es una web maquetada con lilili en la que se hace lalala",
+        description:"Web de empresa basada en mobile first con responsive. #html #saas",
         url:"http://github.com/Adalab/g-m1-divqueens",
         image:icono01,
         emoji:"🦚",
@@ -18,7 +18,7 @@ const projects = [
     },
     {
         name:"AwesomeCards",
-        description:"esto es una web maquetada con lilili en la que se hace lalala",
+        description:"App de intercambio de tarjetas de contacto. #vanilla #javascript",
         url:"http://github.com/Adalab/g-m2-letmecode",
         image:icono02,  
         emoji:"🐙",
@@ -26,21 +26,15 @@ const projects = [
     },
     {
         name:"ReactInherit",
-        description:"esto es una web maquetada con lilili en la que se hace lalala",
+        description:"App heredada en vanilla y traspasada a #react",
         url:"http://beta.adalab.es/g-m3-splice-girls/",
         image:icono03,   
         emoji:"🧠",
         id: 3    
     },
-    // {
-    //     name:"juego adivinar número",
-    //     description:"esto es una web maquetada con lilili en la que se hace lalala",
-    //     url:"http://github.com/Adalab/m2-evaluacion-intermedia-claradios",
-    //     image:"http://via.placeholder.com/250",      
-    // },
     {
         name:"DevAssigner",
-        description:"esto es una web maquetada con lilili en la que se hace lalala",
+        description:"App para asignar desarrolladores a proyectos #forms #login #react",
         url:"http://github.com/Adalab/team-kairos",
         image:icono04,   
         emoji:"🧶",
@@ -48,7 +42,7 @@ const projects = [
     },
     {
         name:"TVShows",
-        description:"esto es una web maquetada con lilili en la que se hace lalala",
+        description:"Gestor de series favoritas #vanilla #javascript #localstorage #api",
         url:"http://github.com/Adalab/m2-evaluacion-final-claradios",
         image:icono05,   
         emoji:"🤯",
@@ -56,11 +50,19 @@ const projects = [
     },
     {
         name:"Ricky&Morty",
-        description:"esto es una web maquetada con lilili en la que se hace lalala",
+        description:"buscador de personajes Ricky and Morty. #filters #React-rooter",
         url:"http://github.com/Adalab/m3-evaluacion-final-claradios",
         image:icono06,  
         emoji:"👩‍🔬",
         id:6     
+    },
+    {
+        name:"AdivinaElNúmero",
+        description:"Juego para adivinar un número aleatorio #javascript #brutalist",
+        url:"http://github.com/Adalab/m2-evaluacion-intermedia-claradios",
+        image:"http://via.placeholder.com/250",  
+        emoji:"🦠",
+        id:7  
     }
 ]
 

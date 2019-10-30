@@ -13,7 +13,10 @@ const Project = props => {
                     onMouseOver={showDescription}
                     onMouseOut={removeDescription}>
                     {((projectId === currentId) && isDescription) ?
-                        <div><h4 style={{ color: 'blue' }}>{name}</h4><p>{description}</p></div>
+                        <div>
+                            <h4 className="work__description-title" style={{ color: 'white' }}>{name}</h4>
+                            <p className="work__description-text">{description}</p>
+                        </div>
                         : emoji}
                 </div>
             </a>
