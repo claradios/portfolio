@@ -21,7 +21,7 @@ const projects = [
         description:"App de intercambio de tarjetas de contacto. #vanilla #javascript",
         url:"http://github.com/Adalab/g-m2-letmecode",
         image:icono02,  
-        emoji:"🐙",
+        emoji:"🎟",
         id: 2     
     },
     {
@@ -53,7 +53,7 @@ const projects = [
         description:"buscador de personajes Ricky and Morty. #filters #React-rooter",
         url:"http://github.com/Adalab/m3-evaluacion-final-claradios",
         image:icono06,  
-        emoji:"👩‍🔬",
+        emoji:"🌊",
         id:6     
     },
     {
@@ -63,6 +63,14 @@ const projects = [
         image:"http://via.placeholder.com/250",  
         emoji:"🦠",
         id:7  
+    },
+    {
+        name:"gitHubUsers",
+        description:"Buscador de usuarios y repos de github #javascript #vanilla",
+        url:"https://github.com/claradios/frontend-test",
+        image:"http://via.placeholder.com/250",  
+        emoji:"🐙",
+        id:8  
     }
 ]
 
